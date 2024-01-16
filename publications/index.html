@@ -115,37 +115,37 @@
           <article>
             <!-- _pages/publications.md -->
 <div class="publications">
-  <h2 class="year">2023</h2>
-  <ol class="bibliography">
-<li>
+  <h2 class="year">2024</h2>
+  <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"></div>
 
         <!-- Entry bib key -->
-        <div id="cruz2023unprocessing" class="col-sm-8">
+        <div id="cruz2024unprocessing" class="col-sm-8">
         <!-- Title -->
         <div class="title">Unprocessing Seven Years of Algorithmic Fairness</div>
         <!-- Author -->
         <div class="author">
         
 
-        <b>André F. Cruz</b>, and Moritz Hardt</div>
+        <b>André F Cruz</b>, and Moritz Hardt</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          2023
+          <em>In International Conference on Learning Representations (ICLR)</em>, 2024
         </div>
         <div class="periodical">
-          arXiv preprint
+          
         </div>
 
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="http://arxiv.org/abs/2306.07261" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://github.com/socialfoundations/error-parity" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
@@ -156,10 +156,22 @@
           <div class="abstract hidden">
             <p>Seven years ago, researchers proposed a postprocessing method to equalize the error rates of a model across different demographic groups. The work launched hundreds of papers purporting to improve over the postprocessing baseline. We empirically evaluate these claims through thousands of model evaluations on several tabular datasets. We find that the fairness-accuracy Pareto frontier achieved by postprocessing contains all other methods we were feasibly able to evaluate. In doing so, we address two common methodological errors that have confounded previous observations. One relates to the comparison of methods with different unconstrained base models. The other concerns methods achieving different levels of constraint relaxation. At the heart of our study is a simple idea we call unprocessing that roughly corresponds to the inverse of postprocessing. Unprocessing allows for a direct comparison of methods using different underlying models and levels of relaxation. Interpreting our findings, we recall a widely overlooked theoretical argument, present seven years ago, that accurately predicted what we observe.</p>
           </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@incollection</span><span class="p">{</span><span class="nl">cruz2024unprocessing</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Unprocessing Seven Years of Algorithmic Fairness}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cruz, Andr\'{e} F and Hardt, Moritz}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{International Conference on Learning Representations (ICLR)}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=jr03SfWsBS}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
-</li>
-<li>
+</li></ol>
+
+  <h2 class="year">2023</h2>
+  <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"></div>
@@ -201,6 +213,7 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="http://arxiv.org/abs/2209.07850" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://github.com/feedzai/fairgbm" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
@@ -211,10 +224,19 @@
           <div class="abstract hidden">
             <p>Machine Learning (ML) algorithms based on gradient boosted decision trees (GBDT) are still favored on many tabular data tasks across various mission critical applications, from healthcare to finance. However, GBDT algorithms are not free of the risk of bias and discriminatory decision-making. Despite GBDT’s popularity and the rapid pace of research in fair ML, existing in-processing fair ML methods are either inapplicable to GBDT, incur in significant train time overhead, or are inadequate for problems with high class imbalance. We present FairGBM, a learning framework for training GBDT under fairness constraints with little to no impact on predictive performance when compared to unconstrained LightGBM. Since common fairness metrics are non-differentiable, we employ a "proxy-Lagrangian" formulation using smooth convex error rate proxies to enable gradient-based optimization. Additionally, our open-source implementation shows an order of magnitude speedup in training time when compared with related work, a pivotal aspect to foster the widespread adoption of FairGBM by real-world practitioners.</p>
           </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@incollection</span><span class="p">{</span><span class="nl">cruz2023fairgbm</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cruz, Andr\'{e} F and Bel{\'{e}}m, Catarina and Jesus, S{\'{e}}rgio and Bravo, Jo{\~{a}}o and Saleiro, Pedro and Bizarro, Pedro}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{FairGBM: Gradient Boosting with Fairness Constraints}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{International Conference on Learning Representations (ICLR)}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=x-mXzBgCX3a}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
-</li>
-</ol>
+</li></ol>
 
   <h2 class="year">2022</h2>
   <ol class="bibliography"><li>
@@ -259,6 +281,7 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="http://arxiv.org/abs/2211.13358" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://github.com/feedzai/bank-account-fraud" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
@@ -268,6 +291,19 @@
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>Evaluating new techniques on realistic datasets plays a crucial role in the development of ML research and its broader adoption by practitioners. In recent years, there has been a significant increase of publicly available unstructured data resources for computer vision and NLP tasks. However, tabular data—which is prevalent in many high-stakes domains—has been lagging behind. To bridge this gap, we present Bank Account Fraud (BAF), the first publicly available 1 privacy-preserving, large-scale, realistic suite of tabular datasets. The suite was generated by applying state-of-the-art tabular data generation techniques on an anonymized, real-world bank account opening fraud detection dataset. This setting carries a set of challenges that are commonplace in real-world applications, including temporal dynamics and significant class imbalance. Additionally, to allow practitioners to stress test both performance and fairness of ML methods, each dataset variant of BAF contains specific types of data bias. With this resource, we aim to provide the research community with a more realistic, complete, and robust test bed to evaluate novel and existing methods.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">NEURIPS2022_d9696563</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Jesus, S\'{e}rgio and Pombal, Jos\'{e} and Alves, Duarte and Cruz, Andr\'{e} F and Saleiro, Pedro and Ribeiro, Rita and Gama, Jo\~{a}o and Bizarro, Pedro}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Advances in Neural Information Processing Systems (NeurIPS)}</span><span class="p">,</span>
+  <span class="na">editor</span> <span class="p">=</span> <span class="s">{Koyejo, S. and Mohamed, S. and Agarwal, A. and Belgrave, D. and Cho, K. and Oh, A.}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{33563--33575}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Curran Associates, Inc.}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Turning the Tables: Biased, Imbalanced, Dynamic Tabular Datasets for ML Evaluation}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{35}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
           </div>
         </div>
       </div>
@@ -317,6 +353,7 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="http://arxiv.org/abs/2103.12715" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://github.com/feedzai/fair-automl" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
@@ -326,6 +363,20 @@
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>Considerable research effort has been guided towards algorithmic fairness but real-world adoption of bias reduction techniques is still scarce. Existing methods are either metric- or model-specific, require access to sensitive attributes at inference time, or carry high development or deployment costs. This work explores the unfairness that emerges when optimizing ML models solely for predictive performance, and how to mitigate it with a simple and easily deployed intervention: fairness-aware hyperparameter optimization (HO). We propose and evaluate fairness-aware variants of three popular HO algorithms: Fair Random Search, Fair TPE, and Fairband. We validate our approach on a real-world bank account opening fraud case-study, as well as on three datasets from the fairness literature. Results show that, without extra training cost, it is feasible to find models with 111% mean fairness increase and just 6% decrease in performance when compared with fairness-blind HO.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">9679036</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cruz, Andr\'{e} F and Saleiro, Pedro and Bel\'{e}m, Catarina and Soares, Carlos and Bizarro, Pedro}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{2021 IEEE International Conference on Data Mining (ICDM)}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Promoting Fairness through Hyperparameter Optimization}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1109/ICDM51629.2021.00119}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1036-1041}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/ICDM51629.2021.00119}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
           </div>
         </div>
       </div>
@@ -372,7 +423,9 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="http://arxiv.org/abs/2012.00073" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://github.com/feedzai/timeshap" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+            <a href="https://dl.acm.org/doi/10.1145/3447548.3467166" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
           </div>
           
           <div class="badges">
@@ -381,6 +434,25 @@
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>Although recurrent neural networks (RNNs) are state-of-the-art in numerous sequential decision-making tasks, there has been little research on explaining their predictions. In this work, we present TimeSHAP, a model-agnostic recurrent explainer that builds upon KernelSHAP and extends it to the sequential domain. TimeSHAP computes feature-, timestep-, and cell-level attributions. As sequences may be arbitrarily long, we further propose a pruning method that is shown to dramatically decrease both its computational cost and the variance of its attributions. We use TimeSHAP to explain the predictions of a real-world bank account takeover fraud detection RNN model, and draw key insights from its explanations: i) the model identifies important features and events aligned with what fraud analysts consider cues for account takeover; ii) positive predicted sequences can be pruned to only 10% of the original length, as older events have residual attribution values; iii) the most recent input event of positive predictions only contributes on average to 41% of the model’s score; iv) notably high attribution to client’s age, upheld on higher false positive rates for older clients.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1145/3447548.3467166</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bento, Jo\~{a}o and Saleiro, Pedro and Cruz, Andr\'{e} F and Figueiredo, M\'{a}rio A.T. and Bizarro, Pedro}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{TimeSHAP: Explaining Recurrent Models through Sequence Perturbations}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{9781450383325}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{New York, NY, USA}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1145/3447548.3467166}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3447548.3467166}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery &amp;amp; Data Mining}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{2565–2573}</span><span class="p">,</span>
+  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{9}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Shapley values, TimeSHAP, RNN, XAI, SHAP, explainability}</span><span class="p">,</span>
+  <span class="na">location</span> <span class="p">=</span> <span class="s">{Virtual Event, Singapore}</span><span class="p">,</span>
+  <span class="na">series</span> <span class="p">=</span> <span class="s">{KDD '21}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
           </div>
         </div>
       </div>
@@ -417,7 +489,8 @@
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://dl.acm.org/doi/pdf/10.1145/3341105.3374025" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://dl.acm.org/doi/pdf/10.1145/3341105.3374025" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
           </div>
           
           <div class="badges">
@@ -426,6 +499,25 @@
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>Detecting bias in text is an increasingly relevant topic, given the information overload problem. Automating this task is crucial for our needs of quality news consumption. With this in mind, we explore modern deep learning approaches, including contextualized word embeddings and attention mechanisms, to compare the effects of different document representation choices. We design token-wise, sentence-wise and hierarchical document representations. Focusing on hyperpartisan news detection, we show that hierarchical attention mechanisms are able to better capture information at different levels of granularity (including intra and inter-sentence), which seems to be relevant for this task. With an accuracy of 82.5%, our best performing system is based on an ensemble of hierarchical attention networks with ELMo embeddings, achieving state-of-the-art performance on the SemEval-2019 Task4 dataset.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">10.1145/3341105.3374025</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cruz, Andr\'{e} Ferreira and Rocha, Gil and Cardoso, Henrique Lopes}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{On Document Representations for Detection of Biased News Articles}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{9781450368667}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{New York, NY, USA}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1145/3341105.3374025}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3341105.3374025}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 35th Annual ACM Symposium on Applied Computing}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{892–899}</span><span class="p">,</span>
+  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{8}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{hyperpartisan news, natural language processing, bias detection, document representation, deep learning}</span><span class="p">,</span>
+  <span class="na">location</span> <span class="p">=</span> <span class="s">{Brno, Czech Republic}</span><span class="p">,</span>
+  <span class="na">series</span> <span class="p">=</span> <span class="s">{SAC '20}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
           </div>
         </div>
       </div>
@@ -458,13 +550,26 @@
 
           <!-- Links/Buttons -->
           <div class="links">
-            <a href="https://repositorio-aberto.up.pt/handle/10216/128959?locale=en" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://repositorio-aberto.up.pt/bitstream/10216/128959/2/414778.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://repositorio-aberto.up.pt/handle/10216/128959?locale=en" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
           </div>
           
           <div class="badges">
           </div>
 
-          
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@mastersthesis</span><span class="p">{</span><span class="nl">cruzthesis2020</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{da Cruz, Andr\'{e} Miguel Ferreira}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Fairness-Aware Hyperparameter Optimization}}</span><span class="p">,</span>
+  <span class="na">school</span> <span class="p">=</span> <span class="s">{University of Porto, Faculty of Engineering}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">jul</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{R. Dr. Roberto Frias, 4200-465 Porto, Portugal}</span><span class="p">,</span>
+  <span class="na">note</span> <span class="p">=</span> <span class="s">{MSc Thesis}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -482,7 +587,7 @@
     <!-- Footer -->
     <!--    <footer class="sticky-bottom mt-5">
       <div class="container">
-        &copy; Copyright 2023 André F. Cruz. 
+        &copy; Copyright 2024 André F. Cruz. 
       </div>
     </footer> -->
 
