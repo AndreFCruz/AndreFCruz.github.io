@@ -21,10 +21,10 @@ social: true  # includes social icons at the bottom of the page
 
 Hi!
 
-I'm PhD student at the MPI for Intelligent Systems (MPI-IS), in Germany.
+I'm a PhD student at the MPI for Intelligent Systems (MPI-IS), in Germany.
 I'm part of the Social Foundations of Computation Department, where I'm fortunate to be advised by [Moritz Hardt](https://mrtz.org/).
 
-My current research focus is on fair ML, and the feedback loops between deployed ML systems and society at large.
+My current research focus is on the fair and responsible use of Machine Learning, and the feedback loops between deployed ML systems and society at large.
 
 Before joining MPI-IS, I was a Research Scientist on the Responsible AI group
-at [Feedzai](https://research.feedzai.com/), a fintech startup :unicorn: where I worked on researching and productizing fair ML in real-world settings.
+at [Feedzai](https://research.feedzai.com/), a fintech startup :unicorn: where I researched and productized fair ML in real-world settings.

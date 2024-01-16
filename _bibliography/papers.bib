@@ -1,29 +1,30 @@
 ---
 ---
 
-@misc{cruz2023unprocessing,
+@inproceedings{cruz2024unprocessing,
   title={Unprocessing Seven Years of Algorithmic Fairness}, 
-  author={Andr\'{e} F. Cruz and Moritz Hardt},
-  year={2023},
-  eprint={2306.07261},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG},
-  note={arXiv preprint},
+  author={Andr\'{e} F Cruz and Moritz Hardt},
+  booktitle={The Twelfth International Conference on Learning Representations (ICLR)},
+  year={2024},
+  url={https://openreview.net/forum?id=jr03SfWsBS},
   arxiv={2306.07261},
   code = {https://github.com/socialfoundations/error-parity},
+  bibtex_show = {true},
   abstract= {Seven years ago, researchers proposed a postprocessing method to equalize the error rates of a model across different demographic groups. The work launched hundreds of papers purporting to improve over the postprocessing baseline. We empirically evaluate these claims through thousands of model evaluations on several tabular datasets. We find that the fairness-accuracy Pareto frontier achieved by postprocessing contains all other methods we were feasibly able to evaluate. In doing so, we address two common methodological errors that have confounded previous observations. One relates to the comparison of methods with different unconstrained base models. The other concerns methods achieving different levels of constraint relaxation. At the heart of our study is a simple idea we call unprocessing that roughly corresponds to the inverse of postprocessing. Unprocessing allows for a direct comparison of methods using different underlying models and levels of relaxation. Interpreting our findings, we recall a widely overlooked theoretical argument, present seven years ago, that accurately predicted what we observe.},
   selected={true}
 }
 
-@incollection{cruz2023fairgbm,
-  author = {Cruz, Andr\'{e} F and Bel{\'{e}}m, Catarina and Jesus, S{\'{e}}rgio and Bravo, Jo{\~{a}}o and Saleiro, Pedro and Bizarro, Pedro},
-  title = {FairGBM: Gradient Boosting with Fairness Constraints},
-  booktitle={International Conference on Learning Representations (ICLR)},
-  year = {2023},
-  abstract= {Machine Learning (ML) algorithms based on gradient boosted decision trees (GBDT) are still favored on many tabular data tasks across various mission critical applications, from healthcare to finance. However, GBDT algorithms are not free of the risk of bias and discriminatory decision-making. Despite GBDT's popularity and the rapid pace of research in fair ML, existing in-processing fair ML methods are either inapplicable to GBDT, incur in significant train time overhead, or are inadequate for problems with high class imbalance. We present FairGBM, a learning framework for training GBDT under fairness constraints with little to no impact on predictive performance when compared to unconstrained LightGBM. Since common fairness metrics are non-differentiable, we employ a "proxy-Lagrangian" formulation using smooth convex error rate proxies to enable gradient-based optimization. Additionally, our open-source implementation shows an order of magnitude speedup in training time when compared with related work, a pivotal aspect to foster the widespread adoption of FairGBM by real-world practitioners.},
-  arxiv = {2209.07850},
-  code = {https://github.com/feedzai/fairgbm},
-  selected={true}
+@inproceedings{cruz2023fairgbm,
+title={Fair{GBM}: Gradient Boosting with Fairness Constraints},
+author = {Cruz, Andr\'{e} F and Bel{\'{e}}m, Catarina and Jesus, S{\'{e}}rgio and Bravo, Jo{\~{a}}o and Saleiro, Pedro and Bizarro, Pedro},
+booktitle={The Eleventh International Conference on Learning Representations (ICLR)},
+year={2023},
+url={https://openreview.net/forum?id=x-mXzBgCX3a},
+arxiv = {2209.07850},
+code = {https://github.com/feedzai/fairgbm},
+abstract= {Machine Learning (ML) algorithms based on gradient boosted decision trees (GBDT) are still favored on many tabular data tasks across various mission critical applications, from healthcare to finance. However, GBDT algorithms are not free of the risk of bias and discriminatory decision-making. Despite GBDT's popularity and the rapid pace of research in fair ML, existing in-processing fair ML methods are either inapplicable to GBDT, incur in significant train time overhead, or are inadequate for problems with high class imbalance. We present FairGBM, a learning framework for training GBDT under fairness constraints with little to no impact on predictive performance when compared to unconstrained LightGBM. Since common fairness metrics are non-differentiable, we employ a "proxy-Lagrangian" formulation using smooth convex error rate proxies to enable gradient-based optimization. Additionally, our open-source implementation shows an order of magnitude speedup in training time when compared with related work, a pivotal aspect to foster the widespread adoption of FairGBM by real-world practitioners.},
+bibtex_show = {true},
+selected={true}
 }
 
 @inproceedings{NEURIPS2022_d9696563,
@@ -39,7 +40,7 @@
  abstract={Evaluating new techniques on realistic datasets plays a crucial role in the development of ML research and its broader adoption by practitioners. In recent years, there has been a significant increase of publicly available unstructured data resources for computer vision and NLP tasks. However, tabular data—which is prevalent in many high-stakes domains—has been lagging behind. To bridge this gap, we present Bank Account Fraud (BAF), the first publicly available 1 privacy-preserving, large-scale, realistic suite of tabular datasets. The suite was generated by applying state-of-the-art tabular data generation techniques on an anonymized, real-world bank account opening fraud detection dataset. This setting carries a set of challenges that are commonplace in real-world applications, including temporal dynamics and significant class imbalance. Additionally, to allow practitioners to stress test both performance and fairness of ML methods, each dataset variant of BAF contains specific types of data bias. With this resource, we aim to provide the research community with a more realistic, complete, and robust test bed to evaluate novel and existing methods.},
  arxiv={2211.13358},
  code={https://github.com/feedzai/bank-account-fraud},
- selected={true}
+ bibtex_show = {true}
 }
 
 @inproceedings{9679036,
@@ -55,6 +56,7 @@
   abstract={Considerable research effort has been guided towards algorithmic fairness but real-world adoption of bias reduction techniques is still scarce. Existing methods are either metric- or model-specific, require access to sensitive attributes at inference time, or carry high development or deployment costs. This work explores the unfairness that emerges when optimizing ML models solely for predictive performance, and how to mitigate it with a simple and easily deployed intervention: fairness-aware hyperparameter optimization (HO). We propose and evaluate fairness-aware variants of three popular HO algorithms: Fair Random Search, Fair TPE, and Fairband. We validate our approach on a real-world bank account opening fraud case-study, as well as on three datasets from the fairness literature. Results show that, without extra training cost, it is feasible to find models with 111% mean fairness increase and just 6% decrease in performance when compared with fairness-blind HO.},
   arxiv={2103.12715},
   code={https://github.com/feedzai/fair-automl},
+  bibtex_show = {true},
   selected={true}
 }
 
@@ -76,6 +78,8 @@ location = {Virtual Event, Singapore},
 series = {KDD '21},
 arxiv = {2012.00073},
 code={https://github.com/feedzai/timeshap},
+bibtex_show = {true},
+website = {https://dl.acm.org/doi/10.1145/3447548.3467166},
 selected={true}
 }
 
@@ -95,7 +99,8 @@ numpages = {8},
 keywords = {hyperpartisan news, natural language processing, bias detection, document representation, deep learning},
 location = {Brno, Czech Republic},
 series = {SAC '20},
-html = {https://dl.acm.org/doi/pdf/10.1145/3341105.3374025}
+bibtex_show = {true},
+pdf = {https://dl.acm.org/doi/pdf/10.1145/3341105.3374025}
 }
 
 @mastersthesis{cruzthesis2020,
@@ -105,6 +110,8 @@ html = {https://dl.acm.org/doi/pdf/10.1145/3341105.3374025}
   year    = {2020},
   month   = {July},
   address = {R. Dr. Roberto Frias, 4200-465 Porto, Portugal},
-  html    = {https://repositorio-aberto.up.pt/handle/10216/128959?locale=en},
+  bibtex_show = {true},
+  website    = {https://repositorio-aberto.up.pt/handle/10216/128959?locale=en},
+  pdf = {https://repositorio-aberto.up.pt/bitstream/10216/128959/2/414778.pdf},
   note    = {MSc Thesis}
 }
