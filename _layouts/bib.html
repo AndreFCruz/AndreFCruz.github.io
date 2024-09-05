@@ -128,6 +128,11 @@
         {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
         <div class="periodical">
           {{ periodical | strip }}
+
+          <!-- Show custom_note if it exists -->
+          {% if entry.custom_note %}
+          <b>{{ entry.custom_note | strip }}</b>
+          {% endif %}
         </div>
         <div class="periodical">
           {{ entry.note | strip }}
