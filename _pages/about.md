@@ -24,7 +24,9 @@ Hi!
 I'm a PhD student at the MPI for Intelligent Systems (MPI-IS), in Germany.
 I'm part of the Social Foundations of Computation Department, where I'm fortunate to be advised by [Moritz Hardt](https://mrtz.org/).
 
-My current research focus is on the fair and responsible use of Machine Learning, and the feedback loops between deployed ML systems and society at large.
+I'm currently spending a semester at Harvard University (Jan. to Jun. 2025), under the mentorship of [Rediet Abebe](https://www.redietabebe.com).
+
+My research focus is on the fair and responsible use of Machine Learning, and the interactions between deployed ML systems and society at large.
 
 Before joining MPI-IS, I was a Research Scientist on the Responsible AI group
 at [Feedzai](https://research.feedzai.com/), a fintech startup :unicorn: where I researched and productized fair ML in real-world settings.
