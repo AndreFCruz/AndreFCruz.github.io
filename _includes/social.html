@@ -31,6 +31,11 @@
             {%- if site.twitter_username -%}
             <a href="https://x.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
             {% endif %}
+            {%- if site.bluesky_username -%}
+            <a href="https://bsky.app/profile/{{ site.bluesky_username }}" title="BlueSky">
+                <img src="/assets/img/bsky-logo/bluesky-icon.white.svg" alt="BlueSky" style="height: 1em; vertical-align: -0.125em;">
+            </a>
+            {% endif %}
             {%- if site.mastodon_username -%}
             <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fab fa-mastodon"></i></a>
             {% endif %}
