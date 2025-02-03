@@ -563,6 +563,12 @@ footer.sticky-bottom {
 .publications ol.bibliography li .title {
   font-weight: bolder;
 }
+.publications ol.bibliography li .periodical b {
+  font-weight: 500;
+}
+.publications ol.bibliography li .author b {
+  font-weight: 500;
+}
 .publications ol.bibliography li .author a {
   border-bottom: 1px dashed var(--global-theme-color);
 }
