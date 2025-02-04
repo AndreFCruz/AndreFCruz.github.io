@@ -564,10 +564,10 @@ footer.sticky-bottom {
   font-weight: bolder;
 }
 .publications ol.bibliography li .periodical b {
-  font-weight: 500;
+  font-weight: 600;
 }
 .publications ol.bibliography li .author b {
-  font-weight: 500;
+  font-weight: 600;
 }
 .publications ol.bibliography li .author a {
   border-bottom: 1px dashed var(--global-theme-color);
